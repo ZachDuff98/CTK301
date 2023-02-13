@@ -1,0 +1,50 @@
+/* This a stylesheet for assignment3.html */
+
+h1 {
+color:red;
+background-color:black;
+}
+
+h2 {
+    color:green;
+    background-color: black;
+}
+
+h3 {
+    color:lightgreen;
+    background-color: black;
+}
+
+p {
+    color:darkgrey;
+    background-color: aqua;
+}
+
+.spanstyle {
+    color:black
+}
+
+.specialp {
+    color: white;
+    background-color: black;
+}
+
+a {
+    color:red;
+}
+
+a:link {
+    color:red
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color:yellow;
+}
+
+#divexample {
+    background-color: black;
+}
