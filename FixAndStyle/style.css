@@ -1,0 +1,49 @@
+#divexample {
+    background-color:lightskyblue;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+.spanstyle {
+    color: goldenrod;
+}
+
+h3 {
+    color: black;
+    background-color: yellow;
+}
+
+h4 {
+    color: yellow;
+    background-color: darkgreen;
+}
+
+h5 {
+    color: red;
+}
+
+#divexample2 {
+    background-color: yellow;
+}
+
+.specialp {
+    background-color: lightgreen;
+}
+
+.specialp2 {
+    color: red;
+}
