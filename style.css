@@ -1,50 +1,49 @@
-/* This a stylesheet for assignment3.html */
+#divexample {
+    background-color:lightskyblue;
+}
 
 h1 {
-color:red;
-background-color:black;
-}
-
-h2 {
-    color:green;
-    background-color: black;
-}
-
-h3 {
-    color:lightgreen;
-    background-color: black;
-}
-
-p {
-    color:darkgrey;
-    background-color: aqua;
-}
-
-.spanstyle {
-    color:black
-}
-
-.specialp {
     color: white;
-    background-color: black;
 }
 
 a {
-    color:red;
-}
-
-a:link {
-    color:red
-}
-
-a:visited {
-    color:green;
+    color: green;
 }
 
 a:hover {
-    color:yellow;
+    color: red;
 }
 
-#divexample {
-    background-color: black;
+h2 {
+    color: blue;
+}
+
+.spanstyle {
+    color: goldenrod;
+}
+
+h3 {
+    color: black;
+    background-color: yellow;
+}
+
+h4 {
+    color: yellow;
+    background-color: darkgreen;
+}
+
+h5 {
+    color: red;
+}
+
+#divexample2 {
+    background-color: yellow;
+}
+
+.specialp {
+    background-color: lightgreen;
+}
+
+.specialp2 {
+    color: red;
 }
