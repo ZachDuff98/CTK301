@@ -1,0 +1,130 @@
+body {
+    background-image: url(a62.png);
+}
+
+#Wrapper {
+    width: 960px;
+    border: 5px solid black;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(5 1fr);
+    background-color: white;
+  }
+
+  header {
+    grid-column: span 5;
+   background-color: skyblue;
+   border-bottom: 2px solid black;
+  }
+  
+h1 {
+  font-family: Helvetica;
+  font-weight: normal;
+  color: black;
+  padding-left: 20px;
+}
+
+nav {
+    grid-column: span 5;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  nav li {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    background-color: green;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+    font-family:Helvetica;
+  }
+
+  
+
+main {
+    grid-column: span 3;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+main img {
+        width: px; 
+        float: right;    
+        margin-right: 20px;  
+        
+        padding: 10px
+        }
+
+main a {
+     text-decoration: none;
+      font-weight: bold;
+          }
+          
+ main a:link {
+            color: green;
+          }
+        
+     
+    
+h2 {
+    font-family: Georgia;
+}
+
+.borderbottom {
+  border-bottom: 5px solid black;
+  padding: 0px 0px 10px 0px;
+}
+aside{
+    background-color: skyblue;
+    grid-column: span 2;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+aside h2 {
+    font-family: Georgia;
+    color: white;
+    border-bottom: 5px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+
+aside p {
+    color: white;
+    margin:10px;
+}
+
+.italicized {
+    font-style: italic;
+}
+
+.customtext {
+    text-align: justify;
+    font-family: Georgia;
+    
+}
+
+footer {
+    grid-column: span 5;
+    color: black;
+    background-color: skyblue;
+    
+    font-weight: bold;
+    font-family: Verdana;
+    padding: 10px;
+    border: 3px solid black
+    
+  }
