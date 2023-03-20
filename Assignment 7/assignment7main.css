@@ -1,0 +1,133 @@
+body {
+    background-color: gray;
+}
+
+#Wrapper {
+    width: 960px;
+    border: 5px solid darkblue;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(5 1fr);
+    background-color: white;
+  }
+
+  #divexample {
+    background-image: linear-gradient(blue, darkblue);
+    grid-column: span 5;
+    
+  }
+
+  header {
+    grid-column: span 5;
+  }
+
+  header a {
+    text-decoration: none;
+  }
+  
+h1 {
+  font-family: Helvetica;
+  font-weight: normal;
+  color: skyblue;
+  padding-left: 20px;
+}
+
+nav {
+    grid-column: span 5;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  nav li {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    background-image: linear-gradient(blue, darkblue);
+    padding: 1em;
+    color: skyblue;
+    text-decoration: none;
+    border: 2px solid darkblue;
+    font-weight: bold;
+    
+    font-family:Helvetica;
+  }
+
+  nav li a:hover {
+    background-color: white;
+  }
+
+  aside {
+    background-color: skyblue;
+    grid-column: span 2;
+    margin-bottom: px;
+    margin-right: px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+aside h2 {
+padding: 20px;
+}
+
+aside p {
+    color: black;
+    margin:20px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+main {
+    grid-column: span 3;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+main img {
+        width: px; 
+        float: left;    
+        margin-right: 20px;  
+        border: 3px solid darkblue;
+        padding: px
+        }
+
+main a {
+     text-decoration: none;
+      font-weight: bold;
+          }
+          
+ main a:link {
+            color: red;
+          }
+
+main a:hover {
+    color: darkred;
+}  
+    
+h2 {
+    font-family: Helvetica;
+    color: blue;
+}
+
+.borderbottom {
+  border-bottom: 5px solid darkblue;
+  padding: 0px 0px 10px 0px;
+}
+
+footer {
+    grid-column: span 5;
+    background-color: red;
+    border-top: 5px solid darkblue;
+}
+
+footer img {
+padding: 10px;
+}
